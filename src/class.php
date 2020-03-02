@@ -9,5 +9,7 @@ class usuario
 	{
 		$this->nombre=$nombre;
 		$this->apellido=$apellido;
+		$this->tipo=$tipo;
+		$this->cantidad=$cantidad;
 	}
 }
