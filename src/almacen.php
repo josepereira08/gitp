@@ -9,5 +9,7 @@ class almacem
 	function __construct($nombre,$tipo,$cantidad)
 	{
 		$this->nombre=$nombre;
+		$this->tipo=$tipo;
+		$this->cantidad=$cantidad;
 	}
 }
