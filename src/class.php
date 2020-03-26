@@ -2,10 +2,12 @@
 
 class usuario 
 {
-	public $name;
+	public $nombre;
+	public $apellido;
 
-	function __construct($name)
+	function __construct($nombre,$apellido)
 	{
-		$this->name=$name;
+		$this->nombre=$nombre;
+		$this->apellido=$apellido;
 	}
 }
